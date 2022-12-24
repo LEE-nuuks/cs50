@@ -2,9 +2,31 @@
 
 using namespace std;
 
+// convert ascii code >> (character>decimal) (decimal to character)
+
 int main()
 {
     // character to decimal
+    cout << "Character to Decimal\n";
+    
+    // method::1
+    char cha = 'A';
+    int asc = cha;
+    cout << asc;
+    
+    cout << " ";
+    
+    // method::2
+    char user_char = ' '; // space
+    cout << int(user_char);
+    
+    cout << " ";
+    
+    // method::3
+    char us_char = '>';
+    cout << static_cast<int>(us_char);
+    
+    cout << "\nDecimal to Character\n";
     
     
     // decimal to character
